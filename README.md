@@ -1,5 +1,9 @@
 **中文** | [English](README_EN.md)
 
+# 说明
+
+当前使用的是PixelExerience的Boot，如果你需要构建Boot镜像，请将你当前手机系统的boot.img上传至boot文件夹，Github限制网页上传文件大小为25MB，所以请通过Git上传，并且配置文件中将MAKE_BOOT_IMAGE改为true。如果不需要构建Boot镜像，则无需上传boot.img。config.env为默认配置文件，config_OnePlus8Pro_MeteoricSU.env为一加8Pro的Meteoric内核配置文件，如果你需要构建自己的内核，请Fork本项目后，复制新的config.env文件，当然如果你和我同样为一加8Pro，可以直接在Actions中编译此项目（PS：Meteoric支持ColorOS、OOS以及类原生，请备份好Boot避免翻车）。
+
 # KernelSU Action
 
 用于 Non-GKI Kernel 的 Action，具有一定的普遍性，需要了解内核及 Android 的相关知识得以运用。
