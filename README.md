@@ -2,10 +2,14 @@
 
 # 说明
 
-无论你想做什么操作，请Fork本项目后再进行。\n
+无论你想做什么操作，请Fork本项目后再进行。
+
 本项目没有选择构建Boot，如果你想构建Boot，将`.env`文件中`Make boot image`改为true，并且提取并上传当前系统的Boot镜像，将外链填写至`Source boot image`。
+
 如果你不想构建Boot，你可以直接跑Actions进行编译。
+
 如果你想编译其它内核的KSU，建议新建一个`.env`文件和`workflows`，`config.env`和`build-kernel.yml`都是默认模板文件。
+
 
 # KernelSU Action
 
