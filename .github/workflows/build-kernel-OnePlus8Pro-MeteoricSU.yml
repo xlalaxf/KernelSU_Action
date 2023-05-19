@@ -1,4 +1,4 @@
-name: Build Kernel MeteoricSU
+name: Build OnePlus8Pro Kernel MeteoricSU
 on:
   workflow_dispatch:
   schedule:
