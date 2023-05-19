@@ -10,6 +10,8 @@
 
 如果你想编译其它内核的KSU，建议新建一个`.env`文件和`workflows`，`config.env`和`build-kernel.yml`都是默认模板文件。
 
+随时随地备份你的Boot，以防止翻车，请确认当前内核是否支持你当前的系统。
+
 
 # KernelSU Action
 
