@@ -1,4 +1,4 @@
-name: Build Kernel MeteoricSU
+name: Build OnePuls6 Kernel RadioactiveSU
 on:
   workflow_dispatch:
   schedule:
